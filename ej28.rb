@@ -3,5 +3,10 @@
 a = ' '
 10.times do |i|
     if (i+1).odd?
+        i = "#{i+1}impar "
+    else
+        i = "#{i+1}par "
+    end
+    a += i
 end
 puts a
