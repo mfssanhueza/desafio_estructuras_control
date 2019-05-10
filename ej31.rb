@@ -10,4 +10,5 @@ a = ""
     end
 a = "#{a}\n"
 end
+
 puts a
